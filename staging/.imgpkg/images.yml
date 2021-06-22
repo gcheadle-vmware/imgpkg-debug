@@ -1,0 +1,7 @@
+---
+apiVersion: imgpkg.carvel.dev/v1alpha1
+images:
+- annotations:
+    kbld.carvel.dev/id: basic-bundle
+  image: index.docker.io/k8slt/imgpkg-test@sha256:41f70748b78b0bbe1733d83429ce4b5eb5e1183936fa26ad74cc3feea7bc05f8
+kind: ImagesLock
